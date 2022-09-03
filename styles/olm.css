@@ -37,6 +37,7 @@ main nav a {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   align-items: center;
+  margin: 8px;
 }
 
 main nav a:hover {
@@ -49,4 +50,8 @@ img.social {
   width: auto;
   filter: invert();
   margin-right: 8px;
+}
+
+footer {
+  font-size: small;
 }
