@@ -55,3 +55,13 @@ img.social {
 footer {
   font-size: small;
 }
+
+a[href*="ascap"] img {
+  width: 170px;
+  display: block;
+  margin: 20px auto;
+}
+
+#showcase {
+  margin: 50px 0 30px;
+}
