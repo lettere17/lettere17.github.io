@@ -16,7 +16,6 @@ main,
 footer {
   max-width: 700px;
   margin: auto;
-  padding: 20px;
 }
 a {
   color: #ef873e;
@@ -33,31 +32,42 @@ img.responsive {
 main nav a {
   display: inline-flex;
   text-decoration: none;
-  padding: 10px 16px 10px 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50px;
   align-items: center;
   margin: 8px;
 }
 
-main nav a:hover {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+a:hover img {
+  filter: grayscale(1);
 }
 
 img.social {
-  height: 32px;
+  height: 64px;
   width: auto;
-  filter: invert();
   margin-right: 8px;
 }
 
 footer {
   font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a[href*="ascap"] img {
   width: 170px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  filter: hue-rotate(180deg);
+}
+
+a[href*="ascap"]:hover img {
+  filter: grayscale(1);
+}
+
+a[href*="porkchop"] img {
+  width: 28px;
+  height: auto;
   display: block;
   margin: 20px auto;
 }
